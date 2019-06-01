@@ -6,13 +6,15 @@ $flutterPens = [
     'author' => 'Rafael Almeida Barbosa',
     'screenshot' => './img/flutterpens/hidden_drawer_menu.gif',
     'github' => 'https://github.com/RafaelBarbosatec/hidden_drawer_menu',
-    'qrcode' => './img/qrcodes/hidden_drawer_menu.png'
+    'qrcode_file' => './img/qrcodes/hidden_drawer_menu.png',
+    'qrcode_content' => 'test1',
   ],
   '/pens/inner-drawer' => [
     'title' => 'Inner Drawer',
     'author' => 'Antonino Di Natale',
     'screenshot' => './img/flutterpens/flutter_inner_drawer.gif',
     'github' => 'https://github.com/Dn-a/flutter_inner_drawer',
-    'qrcode' => './img/qrcodes/flutter_inner_drawer.png'
+    'qrcode_file' => './img/qrcodes/flutter_inner_drawer.png',
+    'qrcode_content' => 'test2',
   ]
 ];
