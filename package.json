@@ -1,0 +1,29 @@
+{
+  "name": "flutterpen-web",
+  "version": "0.0.1",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dpacassi/flutterpen-web.git"
+  },
+  "author": "David Pacassi Torrico",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dpacassi/flutterpen-web/issues"
+  },
+  "homepage": "https://github.com/dpacassi/flutterpen-web",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-glob": "^1.0.9",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1"
+  }
+}
