@@ -1,11 +1,13 @@
 <main>
-  <section>
-    <article class="intro">
-      <h1>FlutterPen</h1>
-      <h2>Your Flutter Developer Community</h2>
+  <div class="content-wrap">
+    <section>
+      <article class="intro">
+        <h1>FlutterPen</h1>
+        <h2>Your Flutter Developer Community</h2>
 
-      <a class="button--primary">Sign Up</a>
-      <a class="button--secondary">Create a FlutterPen</a>
-    </article>
-  </section>
+        <a class="button--primary" href="/">Sign Up</a>
+        <a class="button--secondary" href="/">Create a FlutterPen</a>
+      </article>
+    </section>
+  </div>
 </main>

@@ -13,7 +13,7 @@
 html {
   background-color: $color-dark-grey;
   color: $color-white;
-  //font-family: $font-poppins;
+  font-family: 'Open Sans', sans-serif;
   font-size: 100%;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
@@ -26,4 +26,14 @@ img {
 
 a {
   color: $color-white;
+}
+
+header,
+footer {
+  background-color: $color-darker-grey;
+}
+
+.content-wrap {
+  margin: 0 auto;
+  max-width: $content-wrap-max-width;
 }
