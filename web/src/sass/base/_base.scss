@@ -19,3 +19,11 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+img {
+  display: block;
+}
+
+a {
+  color: $color-white;
+}

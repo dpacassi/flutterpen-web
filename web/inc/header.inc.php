@@ -11,7 +11,7 @@
     <header>
       <nav>
         <ul class="nav__ul--left">
-          <li><a href="/"><img src="./img/baseline-code-24px.svg" alt="FlutterPen" title="FlutterPen" /></a></li>
+          <li><a href="/"><img class="logo" src="./img/baseline-code-24px.svg" alt="FlutterPen" title="FlutterPen" /></a></li>
           <li><a href="/">Explore</a></li>
           <li><a href="/">Search</a></li>
           <li><a href="/">Docs</a></li>

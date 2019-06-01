@@ -1,0 +1,32 @@
+//-----------------------------------------------------------------------------
+// Components: Navigation.
+//-----------------------------------------------------------------------------
+
+header {
+  nav {
+    display: flex;
+    justify-content: space-between;
+
+    ul {
+      &.nav__ul--left {
+      }
+      &.nav__ul--right {
+      }
+
+      li {
+        display: inline-block;
+        vertical-align: middle;
+
+        a {
+          display: block;
+          line-height: 4rem;
+        }
+      }
+    }
+
+    .logo {
+      height: auto;
+      width: 4rem;
+    }
+  }
+}
