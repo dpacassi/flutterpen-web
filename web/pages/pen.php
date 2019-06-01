@@ -25,7 +25,7 @@
         </div>
 
         <footer>
-          <a class="button button--primary" href="/explore">Back</a>
+          <a class="button button--secondary" href="/explore">Back</a>
         </footer>
       </article>
     </section>
