@@ -5,6 +5,7 @@ require_once './inc/pages.inc.php';
 $dispatcher = FastRoute\simpleDispatcher(function (FastRoute\RouteCollector $r) {
   $r->addRoute('GET', '/', 'getFrontPage');
   $r->addRoute('GET', '/explore', 'getExplorePage');
+  $r->addRoute('GET', '/pens/{title}', 'getPenPage');
 });
 
 $httpMethod = $_SERVER['REQUEST_METHOD'];

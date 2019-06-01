@@ -13,3 +13,7 @@ function getFrontPage() {
 function getExplorePage() {
   getPage('explore');
 }
+
+function getPenPage() {
+  getPage('pen');
+}

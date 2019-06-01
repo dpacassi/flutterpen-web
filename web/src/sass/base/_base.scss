@@ -36,6 +36,10 @@ footer {
 
 main {
   min-height: calc(100vh - 8rem);
+
+  section {
+    padding: 1rem 0;
+  }
 }
 
 .content-wrap {
