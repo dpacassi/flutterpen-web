@@ -1,0 +1,27 @@
+//-----------------------------------------------------------------------------
+// Components: Button.
+//-----------------------------------------------------------------------------
+
+.button {
+  background-color: $color-green;
+  color: $color-darker-grey;
+  display: inline-block;
+  font-size: 1.25rem;
+  line-height: normal;
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+
+  &:hover {
+    background-color: $color-light-green;
+    color: $color-darker-grey;
+  }
+
+  &.button--secondary {
+    background-color: $color-light-grey;
+    color: $color-white;
+
+    &:hover {
+      background-color: $color-lighter-grey;
+    }
+  }
+}

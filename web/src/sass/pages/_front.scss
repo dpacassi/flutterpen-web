@@ -20,4 +20,18 @@
   section {
     padding-top: 8rem;
   }
+
+  article {
+    footer {
+      background-color: transparent;
+      display: inline-block;
+      margin-top: 2rem;
+
+      a {
+        + a {
+          margin-left: 1rem;
+        }
+      }
+    }
+  }
 }
