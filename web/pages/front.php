@@ -6,8 +6,8 @@
         <h2>Your <span class="flutter">Flutter</span> Developer Community</h2>
 
         <footer>
-          <a class="button button--primary" href="/">Sign Up</a>
-          <a class="button button--secondary" href="/">Create a FlutterPen</a>
+          <a class="button button--primary" href="/explore">Sign Up</a>
+          <a class="button button--secondary" href="/explore">Create a FlutterPen</a>
         </footer>
       </article>
     </section>

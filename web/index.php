@@ -4,6 +4,7 @@ require_once './inc/pages.inc.php';
 
 $dispatcher = FastRoute\simpleDispatcher(function (FastRoute\RouteCollector $r) {
   $r->addRoute('GET', '/', 'getFrontPage');
+  $r->addRoute('GET', '/explore', 'getExplorePage');
 });
 
 $httpMethod = $_SERVER['REQUEST_METHOD'];
@@ -24,6 +25,6 @@ switch ($routeInfo[0]) {
 
   default:
     // Fall back to the front page.
-    getFrontPage();
+    getPage('front');
     break;
 }
