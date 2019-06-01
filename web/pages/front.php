@@ -1,17 +1,11 @@
 <main>
-  <h1>FlutterPen: Your Flutter Developer Community</h1>
+  <section>
+    <article class="intro">
+      <h1>FlutterPen</h1>
+      <h2>Your Flutter Developer Community</h2>
 
-  <pre><code class="dart">
-    Widget build(BuildContext context) {
-      return new MaterialApp(
-        title: "MyApp",
-        theme: new ThemeData(
-          primaryColor: Color(0xFFD1524F),
-          accentColor: Color(0xFFF61332),
-        ),
-        debugShowCheckedModeBanner: false,
-        home: new contentWrapper(cameras),
-      );
-    }
-  </code></pre>
+      <a class="button--primary">Sign Up</a>
+      <a class="button--secondary">Create a FlutterPen</a>
+    </article>
+  </section>
 </main>

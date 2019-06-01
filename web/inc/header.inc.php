@@ -9,5 +9,18 @@
   </head>
   <body>
     <header>
-      <img src="./img/baseline-code-24px.svg" alt="FlutterPen" title="FlutterPen" />
+      <nav>
+        <ul class="nav__ul--left">
+          <li><a href="/"><img src="./img/baseline-code-24px.svg" alt="FlutterPen" title="FlutterPen" /></a></li>
+          <li><a href="/">Explore</a></li>
+          <li><a href="/">Search</a></li>
+          <li><a href="/">Docs</a></li>
+          <li><a href="/">Blog</a></li>
+          <li><a href="/">GitHub</a></li>
+        </ul>
+        <ul class="nav__ul--right">
+          <li><a class="button button--primary" href="/">Sign Up</a></li>
+          <li><a class="button button--secondary" href="/">Log In</a></li>
+        </ul>
+      </nav>
     </header>
