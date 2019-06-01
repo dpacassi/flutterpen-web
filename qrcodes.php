@@ -9,5 +9,5 @@ foreach ($flutterPens as $flutterPen) {
   $qrCode->setSize(300);
   $qrCode->setWriterByName('png');
   $qrCode->setEncoding('UTF-8');
-  $qrCode->writeFile(__DIR__ . '/web/' . $flutterPen['qrcode_file']);
+  $qrCode->writeFile(__DIR__ . '/web' . $flutterPen['qrcode_file']);
 }

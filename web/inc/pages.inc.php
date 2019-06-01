@@ -1,6 +1,6 @@
 <?php
 
-function getPage($page) {
+function getPage($page, $args=NULL) {
   include_once './inc/header.inc.php';
   include_once './pages/' . $page . '.php';
   include_once './inc/footer.inc.php';
@@ -14,6 +14,6 @@ function getExplorePage() {
   getPage('explore');
 }
 
-function getPenPage() {
-  getPage('pen');
+function getPenPage($args) {
+  getPage('pen', $args);
 }

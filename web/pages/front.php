@@ -2,7 +2,7 @@
   <div class="content-wrap">
     <section>
       <article>
-        <h1><span class="flutter">Flutter</span><span class="pen">Pen</span></h1>
+        <h1><span class="flutterstr">Flutter</span><span class="penstr">Pen</span></h1>
         <h2>Your <span class="flutter">Flutter</span> Developer Community</h2>
 
         <footer>
