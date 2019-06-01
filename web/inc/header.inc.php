@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>FlutterPen: Your Flutter Developer Community</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap&subset=latin-ext" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,600,700&display=swap&subset=latin-ext" rel="stylesheet" />
     <link rel="stylesheet" href="./vendor/html5reset/css/html5reset-1.6.1.css" />
     <link rel="stylesheet" href="./vendor/highlight/css/androidstudio.css" />
     <link rel="stylesheet" href="./dist/css/style.css" />
