@@ -1,4 +1,4 @@
-<main class="intro">
+<main class="front">
   <div class="content-wrap">
     <section>
       <article>

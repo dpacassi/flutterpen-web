@@ -26,6 +26,7 @@ img {
 
 a {
   color: $color-white;
+  @include prefix((transition: $transition-ease-in-out-short));
 }
 
 header,
@@ -65,11 +66,6 @@ h2 {
 
 * + h1 { margin-top: 1rem; }
 * + h2 { margin-top: 1rem; }
-
-.intro {
-  background: url('/img/code.jpg');
-  background-size: cover;
-}
 
 .heart {
   color: $color-heart;

@@ -8,11 +8,6 @@ header {
     justify-content: space-between;
 
     ul {
-      &.nav__ul--left {
-      }
-      &.nav__ul--right {
-      }
-
       li {
         display: inline-block;
         vertical-align: middle;
@@ -22,6 +17,14 @@ header {
           font-size: 1.25rem;
           line-height: 4rem;
           text-decoration: none;
+
+          &:hover {
+            color: $color-blue;
+          }
+        }
+
+        & + li {
+          margin-left: 2rem;
         }
       }
     }

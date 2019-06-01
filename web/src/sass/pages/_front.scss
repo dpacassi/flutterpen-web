@@ -1,0 +1,23 @@
+//-----------------------------------------------------------------------------
+// Pages: Front.
+//-----------------------------------------------------------------------------
+
+.front {
+  position: relative;
+
+  &::after {
+    background: linear-gradient(to right, rgba(30, 31, 38, 1) 0%, rgba(30, 31, 38, 0)), url('/img/code.jpg');
+    background-size: cover;
+    bottom: 0;
+    content: '';
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+
+  section {
+    padding-top: 8rem;
+  }
+}
