@@ -2,5 +2,5 @@ RewriteEngine On
 RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_URI} !^.*\.(css|js|jpg|gif|png)$ [NC]
+RewriteCond %{REQUEST_URI} !^.*\.(css|js|jpg|gif|png|ico)$ [NC]
 RewriteRule . index.php [QSA,L]

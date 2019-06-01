@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="./vendor/html5reset/css/html5reset-1.6.1.css" />
     <link rel="stylesheet" href="./vendor/highlight/css/androidstudio.css" />
     <link rel="stylesheet" href="./dist/css/style.css" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
   </head>
   <body>
     <header>
